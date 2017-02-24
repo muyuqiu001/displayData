@@ -24,6 +24,20 @@ button {
     font-family: Cambria, Georgia;
 }
 
+thead {
+    color: #00FF2F;
+    font-weight: bold
+}
+
+tbody {
+    color: blue;
+    height: 50px
+}
+
+tfoot {
+    color: red
+}
+
 
 /* . . . */
 

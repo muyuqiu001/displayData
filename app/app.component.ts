@@ -15,7 +15,10 @@ import { Component } from '@angular/core';
                          Reivew Person
                     </td>
                     <td>
-                        ReviewTime
+                        Review Time
+                    </td>
+                    <td>
+                        Reivew File
                     </td>
                     <td>
                         Commit Person
@@ -32,6 +35,9 @@ import { Component } from '@angular/core';
                         {{data.reviewtime}}
                     </td>
                     <td>
+                        {{data.file}}
+                    </td>
+                    <td>
                         {{data.committer}}
                     </td>
                 </tr>
@@ -46,6 +52,7 @@ export class AppComponent {
         id: "zkasdf1234",
         reviewer: "00316496",
         reviewtime: "201702242200",
+        file: "123.txt",
         committer: "00388224",
     };
 }
@@ -54,5 +61,6 @@ export class ReviewData {
     id: string;
     reviewer: string;
     reviewtime: string;
+    file : string;
     committer: string;
 }

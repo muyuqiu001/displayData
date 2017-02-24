@@ -1,0 +1,4 @@
+node_modules/
+.git
+app/*.js
+*.js.map

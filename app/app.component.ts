@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { ReviewData } from './reviewdata';
+
 @Component({
     moduleId: module.id,
     selector: 'my-app',
@@ -55,12 +57,4 @@ export class AppComponent {
         file: "123.txt",
         committer: "00388224",
     };
-}
-
-export class ReviewData {
-    id: string;
-    reviewer: string;
-    reviewtime: string;
-    file : string;
-    committer: string;
 }

@@ -1,0 +1,39 @@
+<h1>{{title}}</h1>
+<div>
+    <table border="2">
+        <thead>
+            <td>
+                Commit Id
+            </td>
+            <td>
+                Reivew Person
+            </td>
+            <td>
+                Review Time
+            </td>
+            <td>
+                Reivew File
+            </td>
+            <td>
+                Commit Person
+            </td>
+        </thead>
+        <tr *ngFor="let data of datas">
+            <td>
+                {{data.id}}
+            </td>
+            <td>
+                {{data.reviewer}}
+            </td>
+            <td>
+                {{data.reviewtime}}
+            </td>
+            <td>
+                {{data.file}}
+            </td>
+            <td>
+                {{data.committer}}
+            </td>
+        </tr>
+    </table>
+</div>
